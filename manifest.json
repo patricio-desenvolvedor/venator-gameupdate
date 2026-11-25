@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "required_apk_version": "0.9.6",
-  "recommended_apk_version": "0.9.6",
-  "apk_download_url": "https://play.google.com/store/apps",
-  "content_version": "0.9.6-ota.1",
+  "required_apk_version": "0.50-beta",
+  "recommended_apk_version": "0.50-beta",
+  "apk_download_url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases",
+  "content_version": "0.50-beta.1",
   "mandatory_update": true,
   "title": "ATUALIZAÇÃO DO SERVIDOR",
   "changelog": [
-    "Conexão com servidor de atualizações Venator ativa.",
-    "Balanceamento remoto sincronizado."
+    "Conexão com o servidor de atualizações Venator ativa.",
+    "Balanceamento remoto 0.50-beta sincronizado."
   ],
   "patches": [],
   "remote_config": {
-    "config_version": "0.9.6-ota.1",
+    "config_version": "0.50-beta.1",
     "feature_flags": {
       "USAR_VAT_HORDA": true
     },
@@ -36,5 +36,3 @@
     }
   }
 }
-
-

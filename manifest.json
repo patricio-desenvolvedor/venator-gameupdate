@@ -14,8 +14,8 @@
     {
       "id": "patch_teste_050beta2",
       "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/v0.50-beta.2/patch_teste_050beta2.pck",
-      "size_bytes": COLE_O_SIZE_BYTES_DO_TERMUX,
-      "sha256": "COLE_O_SHA256_DO_TERMUX"
+      "size_bytes": 4194582,
+      "sha256": "8c428b5aa910282c6b4c83cd9d55e5863e1bc508a73627e90b3dc41690671688"
     }
   ],
   "remote_config": {

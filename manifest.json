@@ -3,21 +3,14 @@
   "required_apk_version": "0.50-beta",
   "recommended_apk_version": "0.50-beta",
   "apk_download_url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases",
-  "content_version": "0.50-beta.2",
+  "content_version": "",
   "mandatory_update": false,
   "title": "ATUALIZAÇÃO DO SERVIDOR",
   "changelog": [
     "Teste real de download OTA (.pck) via GitHub Releases.",
     "Validação SHA-256 e instalação automática ativas."
   ],
-  "patches": [
-    {
-      "id": "patch_teste_050beta2",
-      "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/v0.50-beta.2/patch_teste_050beta2.pck",
-      "size_bytes": 4194582,
-      "sha256": "8c428b5aa910282c6b4c83cd9d55e5863e1bc508a73627e90b3dc41690671688"
-    }
-  ],
+  "patches": [],
   "remote_config": {
     "config_version": "0.50-beta.2",
     "feature_flags": {

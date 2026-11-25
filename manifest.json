@@ -4,7 +4,7 @@
   "recommended_apk_version": "0.50-beta",
   "apk_download_url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases",
   "content_version": "0.50-beta.2",
-  "mandatory_update": true,
+  "mandatory_update": false,
   "title": "ATUALIZAÇÃO DO SERVIDOR",
   "changelog": [
     "Teste real de download OTA (.pck) via GitHub Releases.",

@@ -1,25 +1,21 @@
 {
-  "title": "ATUALIZAÇÃO DE EMERGÊNCIA",
-  "content_version": "0.50-beta.3",
+  "title": "ATUALIZAÇÃO 0.50.1 (HOTFIX)",
+  "content_version": "0.50.1-beta",
   "required_apk_version": "0.50-beta",
   "apk_download_url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases",
   "changelog": [
-    "Hotfix: Sistema de dano original restaurado.",
-    "Hotfix: Corrigido o bug exponencial de vida e dano nos monstros.",
-    "Hotfix: Corrigido o travamento do cronômetro na transição de ondas."
+    "Correção crítica: Besta (Humano), Adaga (Caçador Sombrio) e Sangramento agora causam dano normalmente.",
+    "Correção crítica: transição da Onda 1 para a Onda 2 destravada ao zerar o contador.",
+    "Números flutuantes de dano e cura sincronizados no novo motor de combate.",
+    "Estabilidade geral aprimorada no Android."
   ],
   "patches": [
     {
-      "id": "patch_arena_fix",
-      "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/0.50-beta-patch1/patch_arena_fix.pck",
-      "sha256": "2d468dbc8e67ea4e6d8037cdedbcd5fd612e63f8f0fb2303839457fca598e7d6",
-      "size_bytes": 48651
-    },
-    {
-      "id": "patch_dano_fix",
-      "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/0.50-beta-patch3/patch_dano.pck",
-      "sha256": "COLE_A_HASH_GERADA_NO_TERMUX",
-      "size_bytes": COLE_OS_BYTES_AQUI
+      "id": "patch_hotfix_dano_onda",
+      "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/v0.50.1-hotfix/patch_hotfix_dano_onda.pck",
+      "sha256": "db0eba179b6e3d234765ff4bbae5a85978ec59bd2c9489977186c7a80a221769",
+      "size_bytes": 499296
     }
-  ]
+  ],
+  "remote_config": {}
 }

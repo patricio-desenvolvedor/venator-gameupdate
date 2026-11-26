@@ -1,38 +1,18 @@
 {
-  "schema_version": 1,
+  "title": "ATUALIZAÇÃO DE EMERGÊNCIA",
+  "content_version": "0.50-beta.1",
   "required_apk_version": "0.50-beta",
-  "recommended_apk_version": "0.50-beta",
   "apk_download_url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases",
-  "content_version": "",
-  "mandatory_update": false,
-  "title": "ATUALIZAÇÃO DO SERVIDOR",
   "changelog": [
-    "Teste real de download OTA (.pck) via GitHub Releases.",
-    "Validação SHA-256 e instalação automática ativas."
+    "Hotfix: Corrigido o bug exponencial de vida e dano nos monstros reaproveitados.",
+    "Hotfix: Corrigido o travamento do cronômetro na transição de ondas."
   ],
-  "patches": [],
-  "remote_config": {
-    "config_version": "0.50-beta.2",
-    "feature_flags": {
-      "USAR_VAT_HORDA": true
-    },
-    "settings": {
-      "is_hv3_balancing": true,
-      "is_reduced_gem_prices": false,
-      "gold_coin_drop_chance": 0.15,
-      "gem_drop_chance": 0.05,
-      "revive_cost": [15, 30, 60],
-      "upgrade_reroll_cost": [6, 12, 18],
-      "economy": {
-        "global_price_multiplier": 1.0,
-        "item_wave_price_multiplier": 0.12,
-        "weapon_wave_price_multiplier": 0.12
-      }
-    },
-    "weapons_overrides": {},
-    "items_overrides": {},
-    "subtle_assist_v2": {
-      "subtle_assist": true
+  "patches": [
+    {
+      "id": "patch_arena_fix",
+      "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/0.50-beta-patch1/patch_arena.pck",
+      "sha256": "2591c820225e9d14c56129b054bdea328b33587112e61cc3b4e40be0c0e22b72",
+      "size_bytes": 135085
     }
-  }
+  ]
 }

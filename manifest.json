@@ -1,20 +1,20 @@
 {
-  "title": "ATUALIZAÇÃO 0.50.1 (HOTFIX)",
-  "content_version": "0.50.1-beta",
+  "title": "ATUALIZAÇÃO 0.50.2 (HOTFIX)",
+  "content_version": "0.50.2-beta",
   "required_apk_version": "0.50-beta",
   "apk_download_url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases",
   "changelog": [
-    "Correção crítica: Besta (Humano), Adaga (Caçador Sombrio) e Sangramento agora causam dano normalmente.",
-    "Correção crítica: transição da Onda 1 para a Onda 2 destravada ao zerar o contador.",
-    "Números flutuantes de dano e cura sincronizados no novo motor de combate.",
-    "Estabilidade geral aprimorada no Android."
+    "Correção definitiva via OTA: dano da Besta (Humano), Adaga (Caçador Sombrio) e habilidades restaurados no APK 0.50-beta.",
+    "Sobrescrita .gd.remap ativa para aplicar scripts corrigidos sobre o pacote compilado do Android.",
+    "Transição da Onda 1 para a Onda 2 destravada ao zerar o contador.",
+    "Importante: após concluir a atualização, feche o jogo completamente e abra novamente 1 vez."
   ],
   "patches": [
     {
-      "id": "patch_hotfix_dano_onda",
-      "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/v0.50.1-hotfix/patch_hotfix_dano_onda.pck",
-      "sha256": "db0eba179b6e3d234765ff4bbae5a85978ec59bd2c9489977186c7a80a221769",
-      "size_bytes": 499296
+      "id": "patch_hotfix_v2_ota",
+      "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/v0.50.2-hotfix/patch_hotfix_v2_ota.pck",
+      "sha256": "68daf65033603154483915c57e52f839dabe32bad386238692718f243c8b2c7f",
+      "size_bytes": 648096
     }
   ],
   "remote_config": {}

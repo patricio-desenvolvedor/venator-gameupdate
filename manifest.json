@@ -1,10 +1,10 @@
 {
   "title": "ATUALIZAÇÃO DE EMERGÊNCIA",
-  "content_version": "0.50-beta.2",
+  "content_version": "0.50-beta.3",
   "required_apk_version": "0.50-beta",
   "apk_download_url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases",
   "changelog": [
-    "Hotfix: Dano dos projéteis e colisões restaurado (Sistema V2).",
+    "Hotfix: Sistema de dano original restaurado.",
     "Hotfix: Corrigido o bug exponencial de vida e dano nos monstros.",
     "Hotfix: Corrigido o travamento do cronômetro na transição de ondas."
   ],
@@ -12,14 +12,14 @@
     {
       "id": "patch_arena_fix",
       "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/0.50-beta-patch1/patch_arena_fix.pck",
-      "sha256": "2591c820225e9d14c56129b054bdea328b33587112e61cc3b4e40be0c0e22b72",
-      "size_bytes": 135085
+      "sha256": "2d468dbc8e67ea4e6d8037cdedbcd5fd612e63f8f0fb2303839457fca598e7d6",
+      "size_bytes": 48651
     },
     {
       "id": "patch_dano_fix",
-      "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/0.50-beta-patch2/patch_dano.pck",
-      "sha256": "2d468dbc8e67ea4e6d8037cdedbcd5fd612e63f8f0fb2303839457fca598e7d6",
-      "size_bytes": 48651
+      "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/0.50-beta-patch3/patch_dano.pck",
+      "sha256": "COLE_A_HASH_GERADA_NO_TERMUX",
+      "size_bytes": COLE_OS_BYTES_AQUI
     }
   ]
 }

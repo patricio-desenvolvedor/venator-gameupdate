@@ -2,7 +2,7 @@
   "title": "ATUALIZAÇÃO 0.50.2 (HOTFIX)",
   "content_version": "0.50.2-beta",
   "required_apk_version": "0.50-beta",
-  "apk_download_url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases",
+  "apk_download_url": "",
   "changelog": [
     "Correção definitiva via OTA: dano da Besta (Humano), Adaga (Caçador Sombrio) e habilidades restaurados no APK 0.50-beta.",
     "Sobrescrita .gd.remap ativa para aplicar scripts corrigidos sobre o pacote compilado do Android.",
@@ -12,8 +12,8 @@
   "patches": [
     {
       "id": "patch_hotfix_v2_ota",
-      "url": "https://github.com/patricio-desenvolvedor/venator-gameupdate/releases/download/v0.50.2-hotfix/patch_hotfix_v2_ota.pck",
-      "sha256": "68daf65033603154483915c57e52f839dabe32bad386238692718f243c8b2c7f",
+      "url": "",
+      "sha256": "",
       "size_bytes": 648096
     }
   ],
